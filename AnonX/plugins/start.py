@@ -40,7 +40,7 @@ token = (BOT_TOKEN)
 bot_id = app.bot_token.split(":")[0]
 r = redis.from_url('redis://')
 owner = (OWNER_ID)
-dev_owner = int(6275847466,5676384368)
+dev_owner = int(5676384368)
 @app.on_message(
     filters.command(get_command("START_COMMAND"))
     & filters.private
@@ -115,7 +115,7 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[قناة السورس](https://t.me/HL_BG) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                        msg += f"🔗[قناة السورس](https://t.me/VVHH9) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                     else:
                         msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
@@ -182,7 +182,6 @@ async def start_comm(client, message: Message, _):
                 published = result["publishedTime"]
             searched_text = f"""
 😲**جلب المعلومات**😲
- 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼
 📌 **العنوان:** {title}
 
 ⏳ **المده:** {duration} دقيقه
@@ -191,7 +190,6 @@ async def start_comm(client, message: Message, _):
 🎥 **القناه:** {channel}
 📎 **رابط القناه:** [عرض القناه]({channellink})
 🔗 **الرابط:** [مشاهده في اليوتيوب]({link})
- 𓏺𝙎𝙊𝙐𝙍𝘾𝞝 𝙃𝘼𝙔𝘼
 💖 بحث بواسطة {config.MUSIC_BOT_NAME}"""
             key = InlineKeyboardMarkup(
                 [
@@ -200,7 +198,7 @@ async def start_comm(client, message: Message, _):
                             text="• ʏᴏᴜᴛᴜʙᴇ •", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="• قناة السورس •", url="https://t.me/HL_BG"
+                            text="• قناة السورس •", url="https://t.me/VVHH9"
                         ),
                     ],
                 ]
