@@ -1,4 +1,4 @@
-mport asyncio
+import asyncio
 import os
 from pyrogram.types import CallbackQuery
 from AnonX import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
