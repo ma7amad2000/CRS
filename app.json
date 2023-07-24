@@ -1,0 +1,98 @@
+{
+    "name": "كرستال سورس ميوزك",
+    "description": "سورس ميوزك كرستال",
+    "logo": "https://telegra.ph/file/85f232e0613f9403c4560.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "AnonX",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "ماتبعصش القيمه",
+        "value": "1747534",
+        "required": true
+      },
+     "CHANNEL_ID": {
+        "description": "خلي مثل ماهو",
+        "value": "1747534",
+        "required": true
+      },
+      "USER_OWNER": {
+        "description": "معرفك  بدون @",
+        "value": "N_1_F",
+        "required": true
+      },
+      "START_IMG_URL": {
+        "description": "صورة الستارت",
+        "value": "https://telegra.ph/file/85f232e0613f9403c4560.jpg",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "خلي القيمه زي ماهي",
+        "value": "5a2684512006853f2e48aca9652d83ea",
+        "required": true
+      },
+      "SUPPORT_CHANNEL": {
+        "description": "معرف قناتك بدون @",
+        "value": "VVHH9",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "توكن بوتك",
+        "value": "6263074417:AAFH170jmvECjc1WaTNNukjSS-Ad50gbhVc",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "مونقو دي بي لو ماتعرفش تطلعه خليه مثل ماهو",
+        "value": "mongodb+srv://islam2005:islam2005@cluster0.rdjot.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+        "required": true
+      },
+      "MUSIC_BOT_NAME": {
+        "description": "اسم بوتك بالعربي",
+        "value": "كرستال",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "ايديك تقدر تحط اكثر من ايدي بس مسافه بين كل ايدي",
+        "value": "5676384368",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "جلسة بايروجرام حساب المساعد نوع V2",
+        "value": "BAAhIHQAHuauxQHiZT8f721r4sGcC2gBgFQW8f4Us-JDJNsQtD3qUTZZ0aDsyquZ2TsIcDF33CWTjXGvNP5GIK9szulT0Pz4rT7q57q7AV083qNnvEfFfh1YGnBNOSwbBa_uVZco_zlk1AekyAV8ipS4lNa5KqrCWuF6Fxm8OpfV1VCiNAI6zTQdNFNrgJBm_hI8sdLGXos6inormyPX1d9IBIwkfizCmM2dJ1YGVtvJh0KtGwkWUHgYEknfPZk0XaMKuQREaq8MNo5dkat5Akj0tOFS573n0lseF0Gk3vwtgyWi8VNB750GxXY-YhV02F0yEZuXi2l0wpw7T0M67BHMvIakygAAAAFhguqrAA",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "توكن الهيروكو",
+        "value": "d9a23be7-206e-435a-ba18-6085484ce67b",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "اسم تطبيقك نفس اول فار",
+        "value": "abyuziv",
+        "required": false
+      },
+      "LOG_GROUP_ID": {
+        "description": "ايدي جروب الدعم بدايته-100",
+        "value": "-1001969933498",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
