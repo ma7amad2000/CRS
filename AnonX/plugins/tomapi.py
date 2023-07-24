@@ -72,11 +72,10 @@ async def cr_back(_, callback_query: CallbackQuery):
     message = callback_query.message
   
     await message.edit_reply_markup(reply_markup=InlineKeyboardMarkup(
-        [
+        
             [InlineKeyboardButton("طريقة الإستخدام", callback_data="usage")],
             [InlineKeyboardButton("|𓆩˹𓏺َِ •𝐂𝐑𝐘𝐒𝐓𝐀𝐋", url=f"https://t.me/N_1_F")
              
             [InlineKeyboardButton("★ 𝐒𝐎𝐔𝐑𝐂𝐄•𝐂𝐑𝐘𝐒𝐓𝐀𝐋⚡", url=f"https://t.me/VVHH9")],
         ]
     ))
-
