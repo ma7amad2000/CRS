@@ -11,7 +11,7 @@ import json
 token = (BOT_TOKEN)
 
 bot_id = app.bot_token.split(":")[0]
-dev_owner = int(6275847466,5676384368)
+dev_owner = int(5676384368)
 owner = (OWNER_ID)
 
 try:
@@ -64,7 +64,7 @@ except FileNotFoundError:
 	
 
 	
-source_ch = "HL_BG"
+source_ch = "VVHH9"
 
 
 
