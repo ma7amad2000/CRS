@@ -156,7 +156,7 @@ async def idljjopen(client, message):
     dev = (OWNER_ID)
     haya = (5676384368)
     get = await client.get_chat_member(message.chat.id, message.from_user.id)
-    if     if int(message.from_user.id) == haya:
+    if int(message.from_user.id) == haya:
        rotba= "مّمٌَـبـ ـࢪمـج السوࢪس"
     elif message.from_user.id in dev:
         rotba = "مطور اساسي"
